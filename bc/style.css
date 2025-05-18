@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("netflix/images/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 98vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100vw,1600px) ;
+    
+}
+.main .box{
+    height: 98vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    color: aliceblue;
+}
+nav{
+    margin: auto;
+    max-width: 80vw;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 15vh;
+    
+    
+}
+nav img{
+    color: red;
+    width: 145px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+    color: aliceblue;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Segoe UI", Arial, sans-serif; */
+    gap: 20px;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size :48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    height: 6px;
+    background-color: rgb(59, 59, 59);
+}
+.btn{
+    padding: 7px 30px 5px 30px;
+    color: aliceblue;
+    /* font-weight: bold; */
+    border: 1px solid rgba(227, 212, 212, 0.6);
+   border-radius: 4px;
+    background-color: rgba(23,23,23,0.6);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 15px;
+  
+}
+.btn-red{
+    background-color: red;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 13px 24px;
+    border: 0px solid;
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: aliceblue;
+    padding: 7px 10px 7px 10px;
+    margin: 17px;
+    border: 0px solid;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.nav-buttons{
+    margin: 17px;
+}
+.main input{
+    background-color: rgba(23,23,23,0.6);
+    color: aliceblue;
+    padding: 11px 97px;
+   font-size: 13px;
+   padding: 16px 170px 16px 13px;
+   border: 1px solid rgba(227, 212, 212, 0.6);
+   border-radius: 4px;
+   font-weight: 400;
+   
+}
+.first{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    max-width: 75vw;
+    margin: auto;
+    align-items: center;
+    /* height: 100px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 550px;
+   
+}
+section.first > div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 900px;
+    gap: 20px;
+}
+section.first > div :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+section.first > div  :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.secimg img{
+    width: 37vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg{
+    position: relative;
+}
+.secimg video{
+    position: absolute;
+    top: 75px;
+    right: 54px;
+}
+.third .secimg video{
+    width: 363px;
+    top: 49px;
+     right: 111px;
+}
+.faq h2{
+    margin: 60px 0px 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+}
+.faqbox{
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(47, 45, 45);
+    height: 80px;
+    color: aliceblue;
+    width: 70vw;
+    padding-left: 22px;
+    font-size: 24px;
+}
